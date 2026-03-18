@@ -30,7 +30,7 @@ def set_user(uid, gid):
     os.setuid(uid)
 
 
-class CmdSkill(OVOSSkill):
+class SatelliteCmdSkill(OVOSSkill):
 
     def __init__(self, *args, **kwargs):
         self.uid = None

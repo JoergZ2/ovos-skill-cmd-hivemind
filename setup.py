@@ -4,12 +4,13 @@ from os.path import abspath, dirname, join, isfile, isdir
 from os import walk, environ
 
 # Define package information
-SKILL_CLAZZ = "CmdSkill"  # Make sure it matches __init__.py class name
-URL = "https://github.com/OpenVoiceOS/ovos-skill-cmd"
-AUTHOR = "forslund"
+SKILL_CLAZZ = "SatelliteCmdSkill"  # Make sure it matches __init__.py class name
+URL = "https://github.com/joergZ2/ovos-skill-my-satellite-cmd"
+AUTHOR = "joergZ2"
+VERSION = "0.0.1"
 EMAIL = ""
 LICENSE = "Apache2.0"
-DESCRIPTION = SKILL_CLAZZ  # TODO
+DESCRIPTION = "Command skill executing on satellites"
 
 PYPI_NAME = URL.split("/")[-1]  # pip install PYPI_NAME
 
